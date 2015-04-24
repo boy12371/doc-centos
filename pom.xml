@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.sveil.doc.centos</groupId>
+	<artifactId>doc-centos</artifactId>
+	<packaging>pom</packaging>
+	<version>1.0.0-SNAPSHOT</version>
+	<name>doc-centos</name>
+	<description>document of centos project</description>
+
+	<modules>
+		<module>database</module>
+		<module>mysql</module>
+		<module>redis</module>
+		<module>hadoop</module>
+		<module>spark</module>
+		<module>zookeeper</module>
+		<module>message</module>
+		<module>storm</module>
+		<module>web</module>
+		<module>qa_qc</module>
+	</modules>
+
+	<issueManagement>
+		<system>github</system>
+		<url>https://github.com/boy12371/doc_centos/issues</url>
+	</issueManagement>
+	<scm>
+		<url>https://github.com/boy12371/doc-centos</url>
+		<connection>https://github.com/boy12371/doc-centos.git</connection>
+	</scm>
+	<developers>
+		<developer>
+			<name>Richard(Kuang)</name>
+			<id>richard.kuang</id>
+			<email>348350530(AT)qq.com</email>
+			<roles>
+				<role>Developer</role>
+			</roles>
+			<timezone>+8</timezone>
+		</developer>
+	</developers>
+</project>

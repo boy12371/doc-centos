@@ -12,6 +12,7 @@ $ yum -y install jemalloc jemalloc-devel
 ```shell
 $ wget http://mirror.bit.edu.cn/apache//apr/apr-1.5.1.tar.gz
 $ tar -zxvf apr-1.5.1.tar.gz
+$ cd apr-1.5.1
 $ ./configure
 $ make && make install
 ```

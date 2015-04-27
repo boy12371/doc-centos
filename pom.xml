@@ -13,8 +13,6 @@
 
 	<modules>
 		<module>database</module>
-		<module>mysql</module>
-		<module>redis</module>
 		<module>hadoop</module>
 		<module>spark</module>
 		<module>zookeeper</module>
